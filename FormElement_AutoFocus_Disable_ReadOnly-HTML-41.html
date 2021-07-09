@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormElement_AutoFocus_Disable_ReadOnly</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="TEXT" autofocus  required title="Name" name="fname" maxlength="16">  <br>
+        
+        <!-- 
+            1.autofocus
+            2.disable-make attribute disable
+            3.value=""-it make default value
+            4.read only-not able to write
+        -->
+        
+        <label for="pass">Enter your password:</label>
+        <input type="password" id="pass" placeholder="ENTER YOUR password" value="demo.123"  disabled  required>      <br>
+        
+        
+        <label for="mail">Enter your email:</label>
+        <input type="email" id="mail" placeholder="ENTER YOUR email" readonly required>      <br>
+        
+        
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+
+</body>
+</html>
